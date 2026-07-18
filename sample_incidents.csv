@@ -1,0 +1,5 @@
+incident_id,service,signal,region,severity
+INC-101,feature-store,kafka_lag,us-east,high
+INC-102,ranker-api,latency,us-east,medium
+INC-103,training-orchestrator,kafka_lag,us-east,high
+INC-104,vector-index,index_lag,us-west,medium
