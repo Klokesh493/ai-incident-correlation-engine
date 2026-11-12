@@ -1,0 +1,2 @@
+incident_id,service,signal,region,severity
+INC-104,vector-index,index_lag,us-west,medium
