@@ -4,11 +4,14 @@ Groups AI platform incidents by shared signals so SREs can spot common causes ac
 
 ```mermaid
 flowchart LR
-    N0["sample_incidents.csv"]
-    N1["incident_correlation.py"]
-    N2["correlation key / clusters"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Incident CSV"]
+    B["Group incident IDs by signal and region"]
+    C{"Group contains multiple incidents?"}
+    D["Emit incident IDs and count"]
+    E["Omit singleton group"]
+    A --> B --> C
+    C -->|Yes| D
+    C -->|No| E
 ```
 
 ## Operational boundaries
