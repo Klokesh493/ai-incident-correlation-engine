@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Groups AI platform incidents by shared signals so SREs can spot common causes across models, jobs, and services.
+Responders handling simultaneous incidents need to see which records share a signal and region so they can investigate related reports together.
 
 ## Reproduce the workflow
 
